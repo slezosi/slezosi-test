@@ -6,9 +6,23 @@
         <meta name="author" content="Слез">
         <meta name="description" content="Сайт">
         <title>CatLands / Ваш Персонаж</title>
-        <link rel="stylesheet" href="{% static main/css/style.css %}">
+        <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     </head>
 <body>
-    {% block body %}{% end block %}
+    <div class="container" style="width: 1480px; height: 292px; background-image: url('{% static 'main/img/shapka1.png' %}'); background-size: contain; background-repeat: no-repeat"></div>
+    <div class="imagine" id="foto2"><img src="{% static 'main/img/icon2.svg' %}"><a href="{% url 'home' %}"></a></div>
+    <div class="text1"><h1>CatLands</h1></div>
+    <div class="otv"><button style='--slist: #ffda5f, #f9376b'><a href="Otvety.html"><i>Ответы на вопросы</i></a></button></div>
+    <div class="pers"><button style='--slist: #ffda5f, #f9376b'><a href="profile.html"><i>Персонаж</i></a></button></div>
+    <div class="nast"><button style='--slist: #ffda5f, #f9376b'><a href="Otvety.html"><i>Настройки</i></a></button></div>
+    <div class="book"><img src="{% static 'main/img/book-02.svg' %}"></div>
+    <div class="igra"><button style='--slist: #ffda5f, #f9376b'><a href="igrovaya.html"><img src="{% static 'main/img/igra knopka.svg' %}"><i></i></a></button></div>
+    <div class="persona"><img src="{% static 'main/img/persona.svg' %}"></div>
+    <div class="settings"><img src="{% static 'main/img/settings.svg' %}"></div>
+    <div class="menu"><img src="{% static 'main/img/menu-01.svg' %}"></div>
+    <div class="butmenu"><button style='--slist: #ffda5f, #f9376b'><a href="Otvety.html"><i>Меню</i></a></button></div>
+    {% block body %}
+    {% endblock %}
 </body>
-<script src="{% static main/js/script.js %}"></script>
+<script src="{% static 'main/js/script.js' %}"></script>

@@ -1,21 +1,8 @@
+{% extends 'main/base.html' %}
 {% load static %}
-{% extend 'main/html' %}
 
-{% block body %}
-<div class="container"></div>
-<div class="imagine" id="foto2"><img src="icon2.svg"><a href="{% url 'home' %}"></a></div>
-<div class="text1"><h1>CatLands</h1></div>
-<div class="otv"><button style='--slist: #ffda5f, #f9376b'><a href="Otvety.html"><i>Ответы на вопросы</i></a></button></div>
-<div class="pers"><button style='--slist: #ffda5f, #f9376b'><a href="profile.html"><i>Персонаж</i></a></button></div>
-<div class="nast"><button style='--slist: #ffda5f, #f9376b'><a href="Otvety.html"><i>Настройки</i></a></button></div>
-<div class="book"><img src="book-02.svg"></div>
-<div class="igra"><button style='--slist: #ffda5f, #f9376b'><a href="igrovaya.html"><img src="igra knopka.svg"><i></i></a></button></div>
-<div class="persona"><img src="persona.svg"></div>
-<div class="settings"><img src="settings.svg"></div>
-<div class="menu"><img src="menu-01.svg"></div>
-<div class="butmenu"><button style='--slist: #ffda5f, #f9376b'><a href="Otvety.html"><i>Меню</i></a></button></div>
-   
-<form class="form">
+{% block body %}  
+<form class="form" action="{% url 'login' %}">
 <span class="input-span">
 <label for="email" class="label">Почта</label>
 <input type="email" name="email" id="email"/></span>
