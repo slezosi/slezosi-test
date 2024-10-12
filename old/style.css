@@ -1,0 +1,247 @@
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3d1e0e;
+}
+
+.menu{
+    position:absolute;
+    top:22%;
+    left:79.2%;
+    z-index: 2;
+    
+}
+.butmenu button{
+    position: absolute;
+    width: 203px;
+    height: 57px;
+    background: linear-gradient(#FFECD5, #DEC3A1);
+    top: 150px;
+    left:1100px;
+    border-radius: 20px;
+    border: none;
+    padding:0%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.settings{
+    position: absolute;
+    top: 22%;
+    left: 61%;
+
+}
+.persona{
+    position: absolute;
+    top: 22%;
+    left: 30%;
+
+}
+.book{
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    
+}
+.igra button{
+    position: absolute;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    margin-top: -2em;
+    margin-left: 3.7em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Lora';
+    font-size: 20px;
+}
+.otv button{
+    position: absolute;
+    width: 316px;
+    height: 57px;
+    background: linear-gradient(#FFECD5, #DEC3A1);
+    top: 150px;
+    left: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+    
+    
+    
+}
+
+
+
+.pers button{
+    position: absolute;
+    width: 216px;
+    height: 57px;
+    background: linear-gradient(#FFECD5, #DEC3A1);
+    top: 150px;
+    left: 400px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.pers:hover, .pers:focus{
+    background-color: #d0997d;
+    a{color:#dfa589};
+    
+}
+.nast:hover, .nast:focus{
+    background-color: #d0997d;
+    a{color:#dfa589};
+    
+}
+
+.nast button{
+    position: absolute;
+    width: 203px;
+    height: 57px;
+    background: linear-gradient(#FFECD5, #DEC3A1);
+    top: 150px;
+    left: 850px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.nast:hover, .nast:focus{
+    background-color: #d0997d;
+    a{color:#dfa589};
+    
+}
+.otv:hover, .otv:focus{
+    background-color: #d0997d;
+    a{color:#dfa589};
+    
+}
+.butmenu:hover, .butmenu:focus{
+    background-color: #d0997d;
+    a{color:#dfa589};
+    
+}
+
+.igra button{
+   position: absolute;
+   top: 150px;
+   left: 600px;
+   background: none;
+   border: none;
+}
+
+.text1{
+    position: absolute;
+top: 50px;
+left: 120px;
+
+padding: 10px;
+border-radius: 5px;
+color: #000;
+font-size: 16px;
+}
+.container{
+    width: 1480px;
+    height: 292px;
+    background-image: url(shapka1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+body{
+    background-color: #DFC4A3;
+}
+#foto2{
+    position: relative;
+    top: -250px;
+    right: -25px;
+
+}
+.form {
+    --bg-light: #efefef;
+    --bg-dark: #8a5d38;
+    --clr: #c08657;
+    --clr-alpha: #e9c69f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -2em;
+    margin-left: 33em;
+
+  }
+  
+.form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .form input[type="email"],
+.form input[type="password"] {
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--clr-alpha);
+  outline: 2px solid var(--bg-dark);
+}
+
+.form input[type="email"]:focus,
+.form input[type="password"]:focus {
+  outline: 2px solid var(--clr);
+}
+
+.label {
+  align-self: flex-start;
+  color: var(--clr);
+  font-weight: 600;
+}
+
+.form .submit {
+  padding: 1rem 0.75rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 3rem;
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms;
+  font-weight: 600;
+  font-size: 0.9rem;
+
+}
+
+.form .submit:hover {
+  background-color: var(--clr);
+  color: var(--bg-dark);
+}
+
+.span {
+  text-decoration: none;
+  color: var(--bg-dark);
+}
+
+.span a {
+  color: var(--clr);
+}
